@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pet Shelter</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <link rel="stylesheet" type="text/css" href="portfolio_project.css">
+
+</head>
+<body>
+     <div class="container-fluid">
+          <div class="header">
+               <div class="row align-items-center">
+                    <div class="col-md-6 "><h1><img src="heart.png" class="img-fluid" alt="heart">Pet Shelter</h1></div>
+                    <div class="col-md-2 "><a href=""><h3>Find a Pet</h3></a></div>
+                    <div class="col-md-2 "><a href=""><h3>About</h3></a></div>
+                    <div class="col-md-2 "><a href="https://amzn.to/3pWzgQT"><img src="Untitled_16 (1).png"
+                         class="img-fluid" alt="donate"></a></button></div>
+               </div>
+              <div class="row align-items-center" id="bottomhead">
+                   <div class="col">
+                        <h4>I'm looking for a. . .</h4>
+                        <div class="pawdrop">
+                              <div class="paw"><img src="paw.png" class="img-fluid" alt="paw"></div>
+                              <div class="dropdown">
+                                   <button class="dropdownarr"><img src="any pet (2).png" class="img-fluid" alt="options"> </button>
+                                   <div class="dropdown-content">
+                                   <a href="#"><img src="dog.png" class="img-fluid" alt="dog"</a>
+                                   <a href="#"><img src="cat.png" class="img-fluid" alt="cat"</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                   <div class="col">
+                        <h4>in or near. . .</h4>
+                        <form>
+                             <label for="City or zip"><img src="loc.png" class="img-fluid" alt="location"</label>
+                             <input type="search" id="city" name="zip" value="City or Zip Code">
+                         </form>
+                    </div>
+                    <div class="col" id="find"><a href=""><img src="find.png" class="img-fluid" alt="find your bestfriend"</a></div>
+               </div>
+          </div>     
+     </div>
+</body>
+</html>
